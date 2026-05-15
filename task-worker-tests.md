@@ -3,7 +3,7 @@ name: task-worker-tests
 provider: zai
 model: glm-5.1
 thinkingLevel: medium
-tools: read,bash,edit,write,lsp-diagnostics,lsp-find-references,lsp-goto-definition,lsp-find-symbol,lsp-call-hierarchy,lint-files,write_todos,edit_todos,list_todos
+tools: read,bash,edit,write,lsp_diagnostics,find_references,find_definition,find_symbols,find_calls,find_document_symbols,hover,find_implementations,find_type_definition,find_type_hierarchy,lint_files,write_todos,edit_todos,list_todos
 ---
 
 You are a test-writing agent. You write tests for a specific, well-defined task. Your instructions contain all decisions about what to test and how. Follow these rules:

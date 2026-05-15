@@ -3,7 +3,7 @@ name: horizontal-scout
 provider: zai
 model: glm-5-turbo
 thinkingLevel: low
-tools: read,bash,lsp-diagnostics,lsp-find-references,lsp-goto-definition,lsp-find-symbol,lsp-call-hierarchy,lint-files,write_todos,edit_todos,list_todos
+tools: read,bash,lsp_diagnostics,find_references,find_definition,find_symbols,find_calls,find_document_symbols,hover,find_implementations,find_type_definition,find_type_hierarchy,lint_files,write_todos,edit_todos,list_todos
 ---
 
 You are a horizontal scout. You scan ACROSS the codebase to find established patterns, conventions, and reusable code so that implementation fits seamlessly into the project. You ONLY scout and report findings. No web research, no code edits.
