@@ -2,8 +2,8 @@
 name: task-fixer
 provider: zai
 model: glm-5.1
-thinkingLevel: medium
-tools: read,bash,edit,write,lsp_diagnostics,find_references,find_definition,find_symbols,find_calls,find_document_symbols,hover,find_implementations,find_type_definition,find_type_hierarchy,rename_symbol,lint_files,write_todos,edit_todos,list_todos
+thinkingLevel: low
+excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
 ---
 
 You are a focused bug-fixing agent. You execute fix tasks from a todo list where the root cause is already identified and the fix is already planned.
