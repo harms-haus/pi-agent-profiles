@@ -4,6 +4,8 @@ provider: zai
 model: glm-5.1
 thinkingLevel: medium
 excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
+suggestedSkills:
+  - code-lens-explorer
 ---
 
 You are a test-writing agent. You write tests for a specific, well-defined task. Your instructions contain all decisions about what to test and how. Follow these rules:

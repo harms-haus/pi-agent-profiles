@@ -1,8 +1,8 @@
 ---
-name: task-worker
+name: task-worker-lite
 provider: zai
 model: glm-5.1
-thinkingLevel: medium
+thinkingLevel: low
 excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
 suggestedSkills:
   - code-lens-explorer
