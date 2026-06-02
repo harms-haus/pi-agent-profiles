@@ -3,7 +3,7 @@ name: vertical-scout
 provider: zai
 model: glm-5.1
 thinkingLevel: low
-excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
+excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step,web_search,web_fetch,fetch_content
 suggestedSkills:
   - code-lens-explorer
 ---
