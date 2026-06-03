@@ -1,8 +1,8 @@
 ---
 name: task-reviewer
-provider: zai
-model: glm-5.1
-thinkingLevel: low
+provider: opencode-go
+model: deepseek-v4-flash
+thinkingLevel: high
 excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
 ---
 

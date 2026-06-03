@@ -1,7 +1,7 @@
 ---
 name: task-worker-lite
-provider: zai
-model: glm-5.1
+provider: opencode-go
+model: mimo-v2.5
 thinkingLevel: low
 excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
 suggestedSkills:
@@ -22,6 +22,4 @@ You are a general-purpose implementation agent. You execute atomic, well-defined
 
 6. **TASK TRACKING**: Use write_todos/edit_todos to track progress. Start each step before working, complete when done, abandon if unnecessary.
 
-7. **BIFROST RUNES**: If your task includes a Bifrost rune ID: `bf show <id>` → implement. It should already be claimed by the calling agent, but if it is not, you may `bf claim <id>` to claim it. DO NOT fulfill runes (a reviewer will fulfill them when the work is complete).
-
-Report completion: what was done, which files changed, and final verification results. If a rune was involved, confirm rune ID and fulfilled status.
+Report completion: what was done, which files changed, and final verification results.
