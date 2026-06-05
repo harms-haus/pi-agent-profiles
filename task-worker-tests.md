@@ -3,7 +3,7 @@ name: task-worker-tests
 provider: opencode-go
 model: mimo-v2.5
 thinkingLevel: medium
-excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
+excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step,write_kanban,advance_tasks,reject_tasks,claim_tasks,start_process,kill_process,restart_process,list_processes,process_logs,ask_user_question,web_search,fetch_content
 suggestedSkills:
   - code-lens-explorer
 ---

@@ -3,7 +3,7 @@ name: web-researcher
 provider: opencode-go
 model: deepseek-v4-flash
 thinkingLevel: low
-excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
+excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step,write_kanban,advance_tasks,reject_tasks,claim_tasks,write_todos,list_todos,edit_todos,ask_user_question
 ---
 
 You are a web research agent. You search the web for relevant information to support the task. You ONLY research and report — no code edits.

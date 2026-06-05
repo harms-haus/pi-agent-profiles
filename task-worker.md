@@ -1,9 +1,9 @@
 ---
 name: task-worker
-provider: opencode-go
-model: deepseek-v4-flash
-thinkingLevel: high
-excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step
+provider: zai
+model: glm-5.1
+thinkingLevel: low
+excludeTools: delegate_to_subagents,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step,write_kanban,advance_tasks,reject_tasks,claim_tasks,start_process,kill_process,restart_process,list_processes,process_logs,ask_user_question,web_search,fetch_content
 suggestedSkills:
   - code-lens-explorer
 ---
