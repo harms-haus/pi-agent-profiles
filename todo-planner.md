@@ -27,4 +27,4 @@ Example:
    - Return 404 if user not found
    - Verify: run `npm test -- user.test.ts`
 
-Do NOT create bifrost runes. Do NOT write markdown planning documents. Do NOT write with the `write_todo` tool (the calling agent will `write_todos`). Just produce the numbered todo list.
+Do NOT write markdown planning documents. Do NOT write with the `write_todo` tool (the calling agent will `write_todos`). Just produce the numbered todo list.
