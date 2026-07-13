@@ -1,8 +1,8 @@
 ---
 name: doc-reviewer
-provider: opencode-go
-model: deepseek-v4-flash
-thinkingLevel: high
+provider: openai-codex
+model: gpt-5.6-luna
+thinkingLevel: medium
 excludeTools: write,edit,delegate_to_subagents,start_process,kill_process,process_logs,restart_process,list_processes,get_subagent_output,get_subagent_session,list_subagent_profiles,workflow_step,write_kanban,advance_tasks,reject_tasks,claim_tasks,ask_user_question,web_search,fetch_content
 ---
 
