@@ -1,8 +1,8 @@
 ---
 name: gate-failure-analyst
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-luna
+provider: zai
+model: glm-5.3
 thinkingLevel: high
 tools: read,bash,grep,find,ls
 ---

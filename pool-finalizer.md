@@ -1,6 +1,8 @@
 ---
 name: pool-finalizer
 subagentProfile: true
+provider: zai
+model: glm-5.3-flash
 ---
 
 Finalize the supplied pool worktree only. Inspect status and diff, and if it is

@@ -1,14 +1,14 @@
 ---
 name: merge-helper
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-luna
+provider: zai
+model: glm-5.3-flash
 thinkingLevel: low
 tools: read,bash,grep,find,ls,write_todos,list_todos,edit_todos,story_context,jira_issue,confluence_page,edit,write,recall,reflect
 ---
 
 <!--
-  Auto-seeded by pi-subagent-tasks. Provider/model added (openai-codex / gpt-5.6-sol — this
+  Auto-seeded by pi-subagent-tasks. Provider/model added (zai / glm-5.3-flash — this
   environment's default) so conflict resolution can actually spawn; previously
   it had none and merges with conflicts would fail. Swap to suit.
 -->

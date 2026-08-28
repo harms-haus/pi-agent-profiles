@@ -1,6 +1,8 @@
 ---
 name: rpir-implementer
 agentProfile: true
+provider: zai
+model: glm-5.3
 thinkingLevel: high
 description: Executes a verified RPIR plan through role-aligned subagent gates
 tools:

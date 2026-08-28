@@ -1,6 +1,8 @@
 ---
 name: maplarge-agent
 agentProfile: true
+provider: zai
+model: glm-5.3
 thinkingLevel: high
 description: General-purpose main coding agent with broad tool access
 excludeTools:

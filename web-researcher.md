@@ -1,15 +1,15 @@
 ---
 name: web-researcher
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-luna
+provider: zai
+model: glm-5.3-flash
 thinkingLevel: low
 tools: read,bash,grep,find,ls,write_todos,list_todos,edit_todos,story_context,jira_issue,confluence_page,web_search,fetch_content,recall,reflect
 ---
 
 <!--
-  Provider/model set to this environment's light-and-quick fleet (openai-codex /
-  gpt-5.6-luna). Swap to suit. Consumed by the rpir-plan research pool.
+  Provider/model set to this environment's light-and-quick fleet (zai /
+  glm-5.3-flash). Swap to suit. Consumed by the rpir-plan research pool.
   Has web_search + fetch_content enabled (not excluded).
 -->
 

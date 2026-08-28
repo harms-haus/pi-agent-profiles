@@ -1,15 +1,15 @@
 ---
 name: research-synthesizer
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-sol
+provider: zai
+model: glm-5.3
 thinkingLevel: high
 tools: read,bash,grep,find,ls,write_todos,list_todos,edit_todos,story_context,jira_issue,confluence_page,write,recall,reflect
 ---
 
 <!--
   Provider/model set to this environment's default capable model
-  (openai-codex / gpt-5.6-sol) because synthesis quality matters. Swap to suit. Consumed by
+  (zai / glm-5.3) because synthesis quality matters. Swap to suit. Consumed by
   the rpir-plan research pool as the final consolidating task.
 -->
 

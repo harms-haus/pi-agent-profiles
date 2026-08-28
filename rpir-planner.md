@@ -1,6 +1,8 @@
 ---
 name: rpir-planner
 agentProfile: true
+provider: zai
+model: glm-5.3
 thinkingLevel: high
 description: Researches a goal and produces a reviewed, verified RPIR execution plan
 tools:

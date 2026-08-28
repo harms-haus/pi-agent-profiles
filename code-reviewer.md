@@ -1,8 +1,8 @@
 ---
 name: code-reviewer
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-luna
+provider: zai
+model: glm-5.3-flash
 thinkingLevel: high
 tools: read,bash,grep,find,ls,write_todos,list_todos,edit_todos,story_context,jira_issue,confluence_page,oracle_find,recall,reflect
 ---

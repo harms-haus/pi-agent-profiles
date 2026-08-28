@@ -1,15 +1,15 @@
 ---
 name: vertical-scout
 subagentProfile: true
-provider: openai-codex
-model: gpt-5.6-luna
+provider: zai
+model: glm-5.3-flash
 thinkingLevel: low
 tools: read,bash,grep,find,ls,write_todos,list_todos,edit_todos,story_context,jira_issue,confluence_page,oracle_find,recall,reflect
 ---
 
 <!--
   Provider/model is set to match THIS environment's configured providers
-  (openai-codex / gpt-5.6-luna — a light, high-volume fleet for scouting).
+  (zai / glm-5.3-flash — a light, high-volume fleet for scouting).
   Swap `provider`/`model` to suit your setup. This profile is consumed by the
   rpir-plan skill's research pool.
 -->
