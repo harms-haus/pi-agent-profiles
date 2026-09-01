@@ -2,7 +2,7 @@
 name: pi
 agentProfile: true
 provider: zai
-model: glm-5.3
+model: glm-5.3-flash
 thinkingLevel: high
 description: General-purpose main coding agent with broad tool access
 excludeTools:
