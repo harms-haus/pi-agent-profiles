@@ -17,7 +17,7 @@ Classify the failure:
 
 - unfinished but objective in-scope work;
 - invalid or drifting review;
-- ambiguous or contradictory acceptance;
+- ambiguous or contradictory requirements;
 - role/phase mismatch, such as a test gate requiring production work;
 - oversized or unsettled design that needs task decomposition;
 - external state another iteration cannot change.
@@ -31,4 +31,4 @@ the failure without changing compose, profile, dependencies, or task size. The
 replacement must make sense to every atom because they all receive it. If the
 failure needs a different shape, profile, write boundary, or smaller task DAG,
 say that prompt editing and resume are the wrong recovery. Do not weaken
-acceptance, perform a new broad review, edit files, or call `gate_verdict`.
+requirements, perform a new broad review, edit files, or call `gate_verdict`.

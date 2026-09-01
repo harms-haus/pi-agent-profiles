@@ -31,7 +31,7 @@ Your rejection must therefore contain every current blocker. Use a stable ID,
 evidence, and a concrete finish condition:
 
 ```text
-- [AC2/generated-config] config/schema.json:14 still contains the removed key;
+- [R2/generated-config] config/schema.json:14 still contains the removed key;
   `npm run generate:config` reproduces it. Required: update the generator input,
   regenerate, and make the checked-in output match.
 ```
@@ -47,9 +47,9 @@ Review only:
    deliverable.
 2. Minimality. The result follows the prescribed project mechanism without new
    machinery or unnecessary shared/core edits.
-3. Completion. Every acceptance ID and artifact is finished and proven by the
-   required check. Generated, rendered, or migrated output must be inspected,
-   not accepted from command exit status alone.
+3. Completion. Every numbered requirement and artifact is finished and proven
+   by the required check. Generated, rendered, or migrated output must be
+   inspected, not accepted from command exit status alone.
 4. Quality. The result is clear, maintainable, conventionally styled, and free
    of temporary files, debug state, dead work, and TODOs.
 
@@ -59,13 +59,13 @@ or documentation audit; when one is the task, verify its explicit criteria.
 
 ## Method
 
-1. Read the acceptance IDs, scope, analogue, and validation commands. Start with
-   the injected worker change manifest and diff, then inspect the listed
+1. Read the injected requirements, scope, analogue, and PROOF commands. Start
+   with the injected worker change manifest and diff, then inspect the listed
    artifacts in the worktree.
 2. Reconcile each prior ID as resolved, still current, or regressed. Do not
    reopen resolved work without evidence.
-3. Map every listed worker change and criterion, run focused proof commands,
-   and inspect their real output.
+3. Map every listed worker change and numbered requirement, run focused proof
+   commands, and inspect their real output.
 4. Finish the entire bounded check. Group symptoms by root cause and report all
    current blockers together.
 
